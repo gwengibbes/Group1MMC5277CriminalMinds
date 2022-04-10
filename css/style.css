@@ -1,36 +1,35 @@
 :root {
-    --primary: black;
-    --secondary: red;
-    --gray: hsl(217, 11%, 64%);
-    --white: white;
-    --off-white: hsl(216, 100%, 95%);
-    font-family: 'Rubik'
-  }
+  --primary: black;
+  --secondary: red;
+  --gray: hsl(217, 11%, 64%);
+  --white: white;
+  --off-white: hsl(216, 100%, 95%);
+}
 
-  html, body {
-    margin: 0;
-    padding: 0;
-  }
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
 
   /* HEADER */
 
-  .header {
-    background-color: var(--primary);
-    color: var(--white)
-  }
+.header {
+  background-color: var(--primary);
+  color: var(--white)
+}
 
- .body {
+.body {
   display: grid;
   grid-template-rows: 3rem 4fr 2rem;
- }
+}
 
- .nav {
-   display: grid;
-   grid-template-columns: 1fr 4fr;
- }
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
 
- .nav_list {
+.nav_list {
   display: flex; 
   justify-content: flex-end;
 }
@@ -63,8 +62,4 @@
 
 .main_article {
   display: flex;
-}
-
-.season_container {
-  /* display: relative; */
 }
