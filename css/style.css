@@ -19,7 +19,7 @@ html, body {
   background-color: var(--primary);
   color: var(--white);
   font-weight: bold;
-  font-family: 'Rubik Wet Paint', cursive;
+  font-family: 'Rubik Wet Paint', cursive, sans-serif;
 }
 
 .nav {

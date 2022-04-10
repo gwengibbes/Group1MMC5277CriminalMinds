@@ -1,0 +1,13 @@
+.characters, .source, .footer { 
+    padding: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    grid-area: main;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    column-gap: 30px;
+    row-gap:30px;
+    justify-self: center;
+}
+    
