@@ -1,0 +1,36 @@
+.main_p, .footer {
+    margin: 20px;
+}
+
+/* BUTTONS */
+
+.main_button_container {
+    text-align: center;
+}
+
+.main_button {
+    background-color: var(--secondary);
+    color: var(--white);
+    border: none;
+    padding: 12px 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color .5s ease-out;
+  }
+  
+.main_button:hover {
+    font-weight: bold;
+    color: var(--off-white);
+    border: solid 2px var(--off-white);
+    animation: enlarge .5s infinite alternate;
+}
+
+@keyframes enlarge {
+to {
+    transform: scale(1.1,1.1);
+}
+}
+/* end button animation */
