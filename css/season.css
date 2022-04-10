@@ -1,0 +1,14 @@
+/* BODY CONTENT */
+
+.main_article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .season_container {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+  }
